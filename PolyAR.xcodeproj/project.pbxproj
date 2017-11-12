@@ -13,6 +13,12 @@
 		3512CA3E1FB7145B00BFE10E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3512CA3D1FB7145B00BFE10E /* Assets.xcassets */; };
 		3512CA411FB7145B00BFE10E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3512CA3F1FB7145B00BFE10E /* LaunchScreen.storyboard */; };
 		3512CA4C1FB7145B00BFE10E /* PolyARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3512CA4B1FB7145B00BFE10E /* PolyARTests.swift */; };
+		356C17841FB7711D00617536 /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356C17831FB7711D00617536 /* LoadingOverlay.swift */; };
+		356C17861FB77BDC00617536 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356C17851FB77BDC00617536 /* Network.swift */; };
+		357E491A1FB748DF0013C20A /* CoordinatesConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357E49191FB748DF0013C20A /* CoordinatesConverter.swift */; };
+		35A424571FB7D44D005B54F1 /* PopoverLocationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A424561FB7D44D005B54F1 /* PopoverLocationNode.swift */; };
+		6EBB6ADC0D7BB7E832973149 /* Pods_PolyARTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD36F1D9F0409F089E1E48F4 /* Pods_PolyARTests.framework */; };
+		EDC5989186DE6D86FFC2BF8E /* Pods_PolyAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B812E74CC5D0845AEE68BF41 /* Pods_PolyAR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F24B57C0FB7361193774606 /* Pods-PolyARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolyARTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PolyARTests/Pods-PolyARTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3512CA331FB7145B00BFE10E /* PolyAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolyAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3512CA361FB7145B00BFE10E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3512CA381FB7145B00BFE10E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,15 @@
 		3512CA471FB7145B00BFE10E /* PolyARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolyARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3512CA4B1FB7145B00BFE10E /* PolyARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyARTests.swift; sourceTree = "<group>"; };
 		3512CA4D1FB7145B00BFE10E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		356C17831FB7711D00617536 /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
+		356C17851FB77BDC00617536 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		357E49191FB748DF0013C20A /* CoordinatesConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatesConverter.swift; sourceTree = "<group>"; };
+		35A424561FB7D44D005B54F1 /* PopoverLocationNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverLocationNode.swift; sourceTree = "<group>"; };
+		66B6CFC3910FE609F751635C /* Pods-PolyAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolyAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-PolyAR/Pods-PolyAR.release.xcconfig"; sourceTree = "<group>"; };
+		72DCF2639DD98E38BDC40F55 /* Pods-PolyAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolyAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PolyAR/Pods-PolyAR.debug.xcconfig"; sourceTree = "<group>"; };
+		AD36F1D9F0409F089E1E48F4 /* Pods_PolyARTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PolyARTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32DBD4380C415D7137EAE89 /* Pods-PolyARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolyARTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PolyARTests/Pods-PolyARTests.release.xcconfig"; sourceTree = "<group>"; };
+		B812E74CC5D0845AEE68BF41 /* Pods_PolyAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PolyAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC5989186DE6D86FFC2BF8E /* Pods_PolyAR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EBB6ADC0D7BB7E832973149 /* Pods_PolyARTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +80,8 @@
 				3512CA351FB7145B00BFE10E /* PolyAR */,
 				3512CA4A1FB7145B00BFE10E /* PolyARTests */,
 				3512CA341FB7145B00BFE10E /* Products */,
+				CB043597A63CDF8DBFBF6D35 /* Pods */,
+				72C7F917C804291322D1BD6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,7 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				3512CA361FB7145B00BFE10E /* AppDelegate.swift */,
+				35A424561FB7D44D005B54F1 /* PopoverLocationNode.swift */,
 				3512CA381FB7145B00BFE10E /* ViewController.swift */,
+				356C17851FB77BDC00617536 /* Network.swift */,
+				356C17831FB7711D00617536 /* LoadingOverlay.swift */,
+				357E49191FB748DF0013C20A /* CoordinatesConverter.swift */,
 				3512CA3A1FB7145B00BFE10E /* Main.storyboard */,
 				3512CA3D1FB7145B00BFE10E /* Assets.xcassets */,
 				3512CA3F1FB7145B00BFE10E /* LaunchScreen.storyboard */,
@@ -96,6 +120,26 @@
 			path = PolyARTests;
 			sourceTree = "<group>";
 		};
+		72C7F917C804291322D1BD6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B812E74CC5D0845AEE68BF41 /* Pods_PolyAR.framework */,
+				AD36F1D9F0409F089E1E48F4 /* Pods_PolyARTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB043597A63CDF8DBFBF6D35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72DCF2639DD98E38BDC40F55 /* Pods-PolyAR.debug.xcconfig */,
+				66B6CFC3910FE609F751635C /* Pods-PolyAR.release.xcconfig */,
+				0F24B57C0FB7361193774606 /* Pods-PolyARTests.debug.xcconfig */,
+				B32DBD4380C415D7137EAE89 /* Pods-PolyARTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3512CA501FB7145B00BFE10E /* Build configuration list for PBXNativeTarget "PolyAR" */;
 			buildPhases = (
+				6FC8C123F43162656FDE7DF6 /* [CP] Check Pods Manifest.lock */,
 				3512CA2F1FB7145B00BFE10E /* Sources */,
 				3512CA301FB7145B00BFE10E /* Frameworks */,
 				3512CA311FB7145B00BFE10E /* Resources */,
+				F98A6AF34F2679C6DD9F9D32 /* [CP] Embed Pods Frameworks */,
+				E4F2D02D27E3C78F4F93DEEE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3512CA531FB7145B00BFE10E /* Build configuration list for PBXNativeTarget "PolyARTests" */;
 			buildPhases = (
+				A63585C866E7CD1D350A4071 /* [CP] Check Pods Manifest.lock */,
 				3512CA431FB7145B00BFE10E /* Sources */,
 				3512CA441FB7145B00BFE10E /* Frameworks */,
 				3512CA451FB7145B00BFE10E /* Resources */,
+				33D990C32C273A677871A6CE /* [CP] Embed Pods Frameworks */,
+				EF939279DCF238325B5D1F75 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,13 +244,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33D990C32C273A677871A6CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PolyARTests/Pods-PolyARTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FC8C123F43162656FDE7DF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PolyAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A63585C866E7CD1D350A4071 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PolyARTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4F2D02D27E3C78F4F93DEEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PolyAR/Pods-PolyAR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF939279DCF238325B5D1F75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PolyARTests/Pods-PolyARTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F98A6AF34F2679C6DD9F9D32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PolyAR/Pods-PolyAR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PolyAR/Pods-PolyAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3512CA2F1FB7145B00BFE10E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				356C17861FB77BDC00617536 /* Network.swift in Sources */,
 				3512CA391FB7145B00BFE10E /* ViewController.swift in Sources */,
+				35A424571FB7D44D005B54F1 /* PopoverLocationNode.swift in Sources */,
+				356C17841FB7711D00617536 /* LoadingOverlay.swift in Sources */,
 				3512CA371FB7145B00BFE10E /* AppDelegate.swift in Sources */,
+				357E491A1FB748DF0013C20A /* CoordinatesConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +511,7 @@
 		};
 		3512CA511FB7145B00BFE10E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72DCF2639DD98E38BDC40F55 /* Pods-PolyAR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +527,7 @@
 		};
 		3512CA521FB7145B00BFE10E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B6CFC3910FE609F751635C /* Pods-PolyAR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +543,7 @@
 		};
 		3512CA541FB7145B00BFE10E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F24B57C0FB7361193774606 /* Pods-PolyARTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +561,7 @@
 		};
 		3512CA551FB7145B00BFE10E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B32DBD4380C415D7137EAE89 /* Pods-PolyARTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
