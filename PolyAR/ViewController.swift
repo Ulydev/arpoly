@@ -87,7 +87,7 @@ class ViewController: UIViewController, UISearchBarDelegate, SceneLocationViewDe
         
         let title = result["properties"]["label"].stringValue as NSString
         let center = getCenter(result["geometry"])
-        let location = CLLocation(coordinate: center, altitude: 440)
+        let location = CLLocation(coordinate: center, altitude: 420)
         currentNode = PopoverLocationNode(location: location, title: title)
         ARView.addLocationNodeWithConfirmedLocation(locationNode: currentNode!)
         print("latitude: \(center.latitude)")
